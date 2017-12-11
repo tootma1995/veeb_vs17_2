@@ -31,3 +31,7 @@ switch ($sokolaad){
         break;
 }
 echo '<br />';
+// ternary operaatori katse
+$pidu = 'halb';
+$pidutseme = ($pidu == 'hea') ? 'lähme peole' : 'istume kodus';
+echo $pidutseme.'<br />';
